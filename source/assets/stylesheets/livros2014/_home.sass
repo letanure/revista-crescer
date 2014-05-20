@@ -1,0 +1,17 @@
+#livros20140-home
+
+  #livros2014-book-closed
+    +size(420px, 442px)
+    +posLT(270px, 50px)
+    background: image-url("livros2014/layout/book-closed.png")
+    h1
+      +square(269px)
+      +posLT(60px, 70px)
+      +transform( rotate(0deg) )
+      +single-transition(all, .4s, ease)
+      background: image-url("livros2014/layout/logo.png")
+      cursor: pointer
+      color: transparent
+      &:hover
+        +transform( rotate(5deg) )
+
