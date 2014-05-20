@@ -1,0 +1,11 @@
+---
+title: Lista de Infográficos
+---
+
+<ul>
+  <% sitemap.resources.select{|resource| resource.data.title}.each do |resource| %>
+    <li>
+      <%= link_to resource.data.title, resource, :relative => true %>
+    </li>
+  <% end %>
+</ul>

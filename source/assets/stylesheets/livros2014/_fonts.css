@@ -1,0 +1,34 @@
+@font-face {
+    font-family: 'Museo300Regular';
+    src: url('../fonts/museo_300/Museo300-Regular-webfont.eot');
+    src: url('../fonts/museo_300/Museo300-Regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/museo_300/Museo300-Regular-webfont.woff') format('woff'),
+         url('../fonts/museo_300/Museo300-Regular-webfont.ttf') format('truetype'),
+         url('../fonts/museo_300/Museo300-Regular-webfont.svg#Museo300Regular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'Museo500Regular';
+    src: url('../fonts/museo_500/Museo500-Regular-webfont.eot');
+    src: url('../fonts/museo_500/Museo500-Regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/museo_500/Museo500-Regular-webfont.woff') format('woff'),
+         url('../fonts/museo_500/Museo500-Regular-webfont.ttf') format('truetype'),
+         url('../fonts/museo_500/Museo500-Regular-webfont.svg#Museo500Regular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'Museo700Regular';
+    src: url('../fonts/museo_700/Museo700-Regular-webfont.eot');
+    src: url('../fonts/museo_700/Museo700-Regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/museo_700/Museo700-Regular-webfont.woff') format('woff'),
+         url('../fonts/museo_700/Museo700-Regular-webfont.ttf') format('truetype'),
+         url('../fonts/museo_700/Museo700-Regular-webfont.svg#Museo700Regular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}

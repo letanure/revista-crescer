@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="pt-br">
+<head>
+  <meta charset="utf-8">
+  <meta content="IE=edge,chrome=1" http-equiv="X-UA-Compatible">
+  <title><%= data.page.title %></title>
+  <!--[if IE]>
+    <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+  <![endif]-->
+  <%#= partial "meta-social" %>
+  <%= favicon_tag 'favicon.ico' %>
+   <%= stylesheet_link_tag current_page.url.to_s.gsub! '/', '' %>
+  <script type="text/javascript">
+    // var _gaq = _gaq || [];
+    // _gaq.push(['_setAccount', 'UA-NNNN']);
+    // _gaq.push(['_trackPageview']);
+    // (function() {
+    //   var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    //   ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    //   var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+    // })();
+  </script>
+  <div id="fb-root"></div>
+  <script>
+    // window.fbAsyncInit = function() {
+    //   FB.init({appId: 'NNNN', status: true, cookie: true, xfbml: true});
+    // };
+    // (function() {
+    //   var e = document.createElement('script'); e.async = true;
+    //   e.src = document.location.protocol + '//connect.facebook.net/en_US/all.js';
+    //   document.getElementById('fb-root').appendChild(e);
+    // }());
+  </script>
+</head>
+<body class="<%= page_classes %>">
+  <main role="main">
+    <%= yield %>
+  </main>
+  <%= javascript_include_tag  current_page.url.to_s.gsub! '/', '' %>
+</body>
+</html>
