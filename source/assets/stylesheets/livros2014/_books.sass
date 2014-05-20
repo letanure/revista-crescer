@@ -1,0 +1,33 @@
+#livros20140-books
+
+  #livros2014-book-open
+    +size(886px, 435px)
+    +posLT(20px, 50px)
+    background: image-url("livros2014/layout/book-open.png")
+
+    #livros2014-book-left
+      +size(360px, 360px)
+      +posLT(55px, 30px)
+    #livros2014-book-right
+      +size(360px, 360px)
+      +posLT(475px, 30px)
+
+  #livros2014-back-home
+    +circle(135px)
+    +posLT(10px, 360px)
+    +transform( rotate(0deg) )
+    +single-transition(all, .4s, ease)
+    background: image-url("livros2014/layout/logo-small.png")
+    cursor: pointer
+    &:hover
+      +transform( rotate(5deg) )
+
+  #livros2014-open-prize
+    +size(116px, 61px)
+    +posLT(65px, 20px)
+    +transform( rotate(0deg) )
+    +single-transition(all, .4s, ease)
+    background: image-url("livros2014/layout/marker-premio.png")
+    cursor: pointer
+    &:hover
+      +transform( rotate(5deg) )
