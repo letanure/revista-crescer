@@ -1,13 +1,2 @@
-# Geral
-all:
-  back: "Anterior"
-  back2: "Voltar"
-  home: "Início"
-  next: "Próximo"
-  share: "Compartilhe"
-
-  keyboad:
-    title: "Utilize as teclas para navegar!"
-    tip1: "Seta para a direita para 'próximo'"
-    tip2: "Seta para a esquerda para 'anterior'"
-    tip3: "Seta para a cima ou 'ESC' voltar ao início "
+inicio:
+  titulo: "Prêmio 30 melhores livros infantis do ano Crescer 2014"
