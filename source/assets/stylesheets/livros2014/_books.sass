@@ -1,33 +1,220 @@
 #livros20140-books
+  display: none
+
+  #livros2014-book-openning
+    +size(920px, 516px)
+    +posLT(0, 0)
+    // display: none
+    // opacity: 0
+    div
+      +size(920px, 516px)
+      +posLT(0, 0)
+      display: none
+      opacity: 1
+    #livros2014-book-open1
+      background: image-url("livros2014/layout/animate/crescer_animalivro_01.PNG")
+    #livros2014-book-open2
+      background: image-url("livros2014/layout/animate/crescer_animalivro_02.PNG")
+    #livros2014-book-open3
+      background: image-url("livros2014/layout/animate/crescer_animalivro_03.PNG")
+    #livros2014-book-open4
+      background: image-url("livros2014/layout/animate/crescer_animalivro_04.PNG")
+    #livros2014-book-open5
+      background: image-url("livros2014/layout/animate/crescer_animalivro_05.PNG")
+    #livros2014-book-open6
+      background: image-url("livros2014/layout/animate/crescer_animalivro_06.PNG")
+    #livros2014-book-open7
+      background: image-url("livros2014/layout/animate/crescer_animalivro_07.PNG")
+
+  #livros2014-book-info
+    +size(886px, 435px)
+    +posLT(17px, 39px)
+    display: none
+    background: image-url("livros2014/layout/book-open.png")
+    #livros2014-book-info-image
+      +size(360px, 360px)
+      +posLT(55px, 30px)
+      img
+        max-height: 300px
+        max-width: 360px
+        display: block
+        margin: 0 auto
+      #livros2014-sobre
+        +size(150px, 23px)
+        +posLT(115px, 315px)
+        background: image-url("livros2014/layout/sobre-os-autores.png")
+        cursor: pointer
+        text-align: center
+        color: transparent
+      #livros2014-voltar
+        +size(55px, 16px)
+        +posLT(160px, 345px)
+        background: image-url("livros2014/layout/voltar.png")
+        cursor: pointer
+        text-align: center
+        color: transparent
+    #livros2014-book-info-player
+      +size(336px, 187px)
+      +posLT(485px, 30px)
+      background: image-url("livros2014/layout/video.png")
+      cursor: pointer
+      text-align: center
+      color: transparent
+    #livros2014-book-info-author
+      +size(336px, 143px)
+      +posLT(485px, 237px)
+      background: #f8f1d8
+      text-align: center
+      color: transparent
+      padding: 10px
+      color: #333
+      text-align: left
+      overflow: scroll
+      h3
+        font-size: 16px
+        margin-bottom: 5px
+      p
+        font-size: 14px
+        margin-bottom: 5px
+        font-style: italic
+      div
+        font-size: 14px
+        margin-bottom: 10px
+
+  #livros2014-book-author
+    +posLT(270px, 50px)
+    +size(413px, 442px)
+    display: none
+    background: image-url("livros2014/layout/sobre-autores.png")
+
+    #livros2014-book-author-content
+      +posLT(75px, 84px)
+      +size(270px, 268px)
+
+    #livros2014-book-author-back
+      +posLT(180px, 360px)
+      +size(58px, 23px)
+      background: image-url("livros2014/layout/voltar-red.png")
+      cursor: pointer
+
+  #livros2014-book-prize
+    +posLT(270px, 50px)
+    +size(392px, 452px)
+    display: none
+    background: image-url("livros2014/layout/sobre-premio.png")
+
+    #livros2014-book-prize-content
+      +posLT(75px, 84px)
+      +size(270px, 268px)
+
+    #livros2014-book-prize-back
+      +posLT(166px, 429px)
+      +size(55px, 16px)
+      background: image-url("livros2014/layout/voltar-black.png")
+      cursor: pointer
 
   #livros2014-book-open
     +size(886px, 435px)
-    +posLT(20px, 50px)
+    +posLT(17px, 38px)
     background: image-url("livros2014/layout/book-open.png")
+    display: none
+
+    #livros2014-book-name
+      background: image-url("livros2014/layout/faixa-nome-livro.png")
+      +size(705px, 53px)
+      // +posLT(90px, 400px)
+      +posLT(950px, 400px)
+      opacity: 0
+      display: none
+      text-align: center
+      color: #fff
+      padding: 10px 40px
+      h3
+        font-size: 16px
+        line-height: 18px
+      p
+        font-size: 14px
+        line-height: 16px
 
     #livros2014-book-left
       +size(360px, 360px)
       +posLT(55px, 30px)
+      ul.livros2014-coluna
+        &:nth-child(3) li
+          margin-bottom: 3px
+        &:nth-child(4) li
+          margin-bottom: 17px
     #livros2014-book-right
       +size(360px, 360px)
       +posLT(475px, 30px)
+      ul.livros2014-coluna
+        &:nth-child(1) li
+          margin-bottom: 11px
+        &:nth-child(2) li
+          margin-bottom: 7px
+        &:nth-child(3) li
+          margin-bottom: 6px
+        &:nth-child(4) li
+          margin-bottom: 1px
+    ul.livros2014-coluna
+      width: 90px
+      float: left
+      li
+        +single-transition(all, .4s, ease)
+        +box-shadow(0 0 5px rgba(0, 0, 0, 0))
+        border-radius: 3px
+        list-style: none
+        width: 80px
+        margin-bottom: 6px
+        display: none
+        opacity: 0
+        cursor: pointer
+        z-index: 2
+        &:hover
+          +transform(scale(1.2))
+          +box-shadow(0 0 5px rgba(0, 0, 0, .8))
+          z-index: 3
+        .image
+          img
+            width: 80px
+        .titulo
+          display: none
+        .descricaoLivro
+          display: none
+        .autores
+          display: none
+        .descricaoAutores
+          display: none
+        .video
+          display: none
+        .ilustrador
+          display: none
+        .editora
+          display: none
+        .preco
+          display: none
 
   #livros2014-back-home
     +circle(135px)
-    +posLT(10px, 360px)
-    +transform( rotate(0deg) )
+    // +posLT(10px, 360px)
+    +posLT(-150px, 360px)
+    +transform( rotate(90deg) )
     +single-transition(all, .4s, ease)
     background: image-url("livros2014/layout/logo-small.png")
     cursor: pointer
+    display: none
+    opacity: 0
     &:hover
       +transform( rotate(5deg) )
 
   #livros2014-open-prize
     +size(116px, 61px)
-    +posLT(65px, 20px)
+    // +posLT(65px, 20px)
+    +posLT(65px, -100px)
     +transform( rotate(0deg) )
     +single-transition(all, .4s, ease)
     background: image-url("livros2014/layout/marker-premio.png")
     cursor: pointer
+    display: none
     &:hover
       +transform( rotate(5deg) )

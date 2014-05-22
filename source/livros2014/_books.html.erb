@@ -1,12 +1,100 @@
 <section id="livros20140-books">
 
-  <div id="livros2014-book-open">
-    <div id="livros2014-book-left"></div>
-    <div id="livros2014-book-right"></div>
+  <div id="livros2014-book-openning">
+    <div id="livros2014-book-open1"></div>
+    <div id="livros2014-book-open2"></div>
+    <div id="livros2014-book-open3"></div>
+    <div id="livros2014-book-open4"></div>
+    <div id="livros2014-book-open5"></div>
+    <div id="livros2014-book-open6"></div>
+    <div id="livros2014-book-open7"></div>
   </div>
 
-  <div id="livros2014-back-home"></div>
-  <div id="livros2014-open-prize"></div>
+  <div id="livros2014-book-open">
+    <div id="livros2014-book-left">
+      <ul class="livros2014-coluna">
+      <% data.livros2014.info.livros.coluna1.each do |livro| %>
+        <%= partial('book', :locals => { :book => livro }) %>
+      <% end%>
+      </ul>
+      <ul class="livros2014-coluna">
+      <% data.livros2014.info.livros.coluna2.each do |livro| %>
+        <%= partial('book', :locals => { :book => livro }) %>
+      <% end%>
+      </ul>
+      <ul class="livros2014-coluna">
+      <% data.livros2014.info.livros.coluna3.each do |livro| %>
+        <%= partial('book', :locals => { :book => livro }) %>
+      <% end%>
+      </ul>
+      <ul class="livros2014-coluna">
+      <% data.livros2014.info.livros.coluna4.each do |livro| %>
+        <%= partial('book', :locals => { :book => livro }) %>
+      <% end%>
+      </ul>
+    </div>
+    <div id="livros2014-book-right">
+      <ul class="livros2014-coluna">
+      <% data.livros2014.info.livros.coluna5.each do |livro| %>
+        <%= partial('book', :locals => { :book => livro }) %>
+      <% end%>
+      </ul>
+      <ul class="livros2014-coluna">
+      <% data.livros2014.info.livros.coluna6.each do |livro| %>
+        <%= partial('book', :locals => { :book => livro }) %>
+      <% end%>
+      </ul>
+      <ul class="livros2014-coluna">
+      <% data.livros2014.info.livros.coluna7.each do |livro| %>
+        <%= partial('book', :locals => { :book => livro }) %>
+      <% end%>
+      </ul>
+      <ul class="livros2014-coluna">
+      <% data.livros2014.info.livros.coluna8.each do |livro| %>
+        <%= partial('book', :locals => { :book => livro }) %>
+      <% end%>
+      </ul>
+    </div>
+    <div id="livros2014-book-name">
+      <h3></h3><p></p>
+    </div>
+  </div>
 
+  <div id="livros2014-book-info">
+    <div id="livros2014-book-info-image">
+      <%= image_tag 'livros2014/books/cuca001.jpg', :width => '360' %>
+      <div id="livros2014-sobre">
+        <%= data.livros2014.info.geral.sobre %>
+      </div>
+      <div id="livros2014-voltar">
+        <%= data.livros2014.info.geral.voltar %>
+      </div>
+    </div>
+    <div id="livros2014-book-info-player"></div>
+    <div id="livros2014-book-info-author">
+      <h3></h3>
+      <p></p>
+      <div></div>
+    </div>
+  </div>
+
+  <div id="livros2014-book-author">
+    <div id="livros2014-book-author-content">
+
+    </div>
+    <div id="livros2014-book-author-back"></div>
+  </div>
+
+  <div id="livros2014-book-prize">
+    <div id="livros2014-book-prize-content">
+
+    </div>
+    <div id="livros2014-book-prize-back"></div>
+  </div>
+
+
+  <div id="livros2014-back-home"></div>
+
+  <div id="livros2014-open-prize"></div>
 
 </section>
