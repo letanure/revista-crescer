@@ -5,6 +5,9 @@ geral:
 inicio:
   titulo: "Prêmio 30 melhores livros infantis do ano Crescer 2014"
 
+premio:
+  texto: "texto premio"
+
 livros:
   coluna1:
     -

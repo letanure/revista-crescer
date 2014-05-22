@@ -293,4 +293,19 @@ var livros2014 = (function() {
 
 }());
 
-livros2014.init();
+
+$(document).ready(function() {
+    $("body").queryLoader2({
+      backgroundColor: '#ff6c0f',
+      barColor: '#fff',
+      completeAnimation: 'grow',
+      onComplete: function (argument) {
+        livros2014.init();
+      }
+    });
+});
+
+
+
+
+
