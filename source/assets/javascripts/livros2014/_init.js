@@ -108,6 +108,8 @@ var livros2014 = (function() {
     })
   }
 
+  var $openBook;
+
   function bindShowBook() {
     var $books = $('.livros2014-coluna li');
     var $booksList = $('#livros2014-book-open');
@@ -118,6 +120,7 @@ var livros2014 = (function() {
 
     $books.on('click', function () {
       var $this = $(this);
+      $openBook = $this;
       var img = $this.find('.image img').attr('src').replace('thumb/', '');
       var titulo = $this.find('.titulo').text();
       var editora = $this.find('.editora').text();
@@ -178,6 +181,56 @@ var livros2014 = (function() {
     var $bookOpen = $('#livros2014-book-openning');
     var $bookHome = $('#livros2014-back-home');
     $('#livros2014-sobre').on('click', function () {
+
+      var autores = $openBook.find('.autores').text()
+      var descricaoAutores = $openBook.find('.descricaoAutores').text()
+
+      var linkAutor = $openBook.find('.linkAutor').text()
+      var ilustrador = $openBook.find('.ilustrador').text()
+      var descricaoIlustrador = $openBook.find('.descricaoIlustrador').text()
+      var linkIlustrador = $openBook.find('.linkIlustrador').text()
+
+      var htmlAutores = '';
+
+      if(autores != ilustrador){
+        htmlAutores += '<h3>' + autores + '</h3>'
+        htmlAutores += '<p>' + descricaoAutores + '</p>'
+        if(linkAutor != ''){
+          htmlAutores += '<h4>Mais em: </h4>'
+          var arraylinks = linkAutor.split('|');
+          htmlAutores += '<p>';
+          $.each(arraylinks, function (i, link) {
+            htmlAutores += '<a href="' + link + '" target="blank">' + link + '</a>';
+          });
+          htmlAutores += '</p>';
+        }
+        if(ilustrador != ''){
+          htmlAutores += '<h3>' + ilustrador + '</h3>'
+          htmlAutores += '<p>' + descricaoIlustrador + '</p>'
+          if(linkIlustrador != ''){
+            htmlAutores += '<h4>Mais em: </h4>'
+            var arraylinksIlust = linkIlustrador.split('|');
+            htmlAutores += '<p>';
+            $.each(arraylinksIlust, function (i, link) {
+              htmlAutores += '<a href="' + link + '" target="blank">' + link + '</a>';
+            });
+            htmlAutores += '</p>';
+          }
+        }
+      } else{
+        htmlAutores += '<h3>' + autores + '</h3>'
+        htmlAutores += '<p>' + descricaoAutores + '</p>'
+        if(linkAutor != ''){
+          htmlAutores += '<h4>Mais em: </h4>'
+          var arraylinks = linkAutor.split('|');
+          htmlAutores += '<p>';
+          $.each(arraylinks, function (i, link) {
+            htmlAutores += '<a href="' + link + '" target="blank">' + link + '</a>';
+          });
+          htmlAutores += '</p>';
+        }
+      }
+      $('#livros2014-book-author-content').html(htmlAutores)
       $bookOpen.velocity({ opacity: 0 }, { duration: 500 , display: 'none' });
       $bookInfo.velocity({ opacity: 0 }, { duration: 500 , display: 'none' });
       $bookHome.velocity({ opacity: 0 }, { duration: 500,  display: 'none' });
