@@ -58,7 +58,7 @@ var livros2014 = (function() {
     var $bookName = $('#livros2014-book-name');
     $bookOpen.show();
     $bookLogo.velocity({ opacity: 1, rotateX: 0, left: 10 }, { duration: 500, delay: 300 , display: 'block' });
-    $bookPrize.velocity({ top: 20 }, { duration: 500, delay: 300 , display: 'block' });
+    $bookPrize.velocity({ top: 0 }, { duration: 500, delay: 300 , display: 'block' });
     var i = 0
     var animOpen = window.setInterval(function(){
       $books.eq(i).velocity({ opacity: 1 }, { duration: 500 , display: 'block' });
@@ -169,7 +169,7 @@ var livros2014 = (function() {
     $('#livros2014-voltar').on('click', function() {
       $booksList.velocity({ opacity: 1 }, { duration: 500 , display: 'block' });
       $bookLogo.velocity({ top: 360 }, { duration: 500 , display: 'block' });
-      $bookPrize.velocity({ top: 20 }, { duration: 500 , display: 'block' });
+      $bookPrize.velocity({ top: 0 }, { duration: 500 , display: 'block' });
       $bookName.velocity({ left: 90 }, { duration: 500 , display: 'block' });
       $bookInfo.velocity({ opacity: 0 }, { duration: 500, delay: 250 , display: 'none' });
     });
@@ -283,7 +283,7 @@ var livros2014 = (function() {
       $booksList.velocity({ opacity: 1 }, { duration: 500, display: 'block' });
       $bookName.velocity({ left: 90 }, { duration: 500 , display: 'block' });
       $bookLogo.velocity({ opacity: 1 }, { duration: 500 , display: 'block' });
-      $bookPrize.velocity({ top: 20 }, { duration: 500 , display: 'block' });
+      $bookPrize.velocity({ top: 0 }, { duration: 500 , display: 'block' });
     });
   }
 
