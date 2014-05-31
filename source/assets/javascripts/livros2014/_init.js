@@ -20,7 +20,7 @@ var livros2014 = (function() {
     var $booksOpenningDivs = $('#livros2014-book-openning', $books).find('div');
     var duracao = 100
     $("#livros2014-back-home").on('click', function(){
-      $books.hide();
+      $("#livros2014-book-open").hide();
       var i = 7;
       var animOpen = window.setInterval(function(){
         if( i > 0){
@@ -327,7 +327,6 @@ $(document).ready(function() {
       }
     });
 });
-
 
 
 
