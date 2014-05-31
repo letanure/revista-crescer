@@ -11,6 +11,29 @@ var livros2014 = (function() {
     bindbackAuthors();
     bindShowPrize()
     bindShowPrizeBack()
+    bindBackClosedBook()
+  }
+
+  function bindBackClosedBook(){
+    var $bookClosed = $('#livros2014-book-closed');
+    var $books = $('#livros20140-books');
+    var $booksOpenningDivs = $('#livros2014-book-openning', $books).find('div');
+    var duracao = 100
+    $("#livros2014-back-home").on('click', function(){
+      $books.hide();
+      var i = 7;
+      var animOpen = window.setInterval(function(){
+        if( i > 0){
+          $booksOpenningDivs.eq(i).show();
+          i--;
+          $booksOpenningDivs.eq(i).hide();
+          $bookClosed.hide()
+        }
+        if( i == 0){
+          window.clearInterval(animOpen)
+        }
+      }, 90);
+    });
   }
 
   function start() {
@@ -304,7 +327,6 @@ $(document).ready(function() {
       }
     });
 });
-
 
 
 
