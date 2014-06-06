@@ -24,9 +24,9 @@ var livros2014 = (function() {
       var i = 7;
       var animOpen = window.setInterval(function(){
         if( i > 0){
-          $booksOpenningDivs.eq(i).show();
-          i--;
           $booksOpenningDivs.eq(i).hide();
+          i--;
+          $booksOpenningDivs.eq(i).show();
           $bookClosed.hide()
         }
         if( i == 0){
@@ -140,6 +140,9 @@ var livros2014 = (function() {
     var $bookLogo = $('#livros2014-back-home');
     var $bookPrize = $('#livros2014-open-prize');
     var $bookName = $('#livros2014-book-name');
+    var $bookName = $('#livros2014-book-name');
+    
+    //livros2014-book-info-player
 
     $books.on('click', function () {
       var $this = $(this);
@@ -152,6 +155,7 @@ var livros2014 = (function() {
       var ilustrador = $this.find('.ilustrador').text();
       var video = $this.find('.video').text();
       var descricaoLivro = $this.find('.descricaoLivro').text();
+      var videoLink = $this.find('.linkVideo').text();
 
       var finalText = '';
       if(autores != ilustrador){
@@ -175,6 +179,8 @@ var livros2014 = (function() {
       $('#livros2014-book-info-author h3').text(titulo);
       $('#livros2014-book-info-author p').text(finalText);
       $('#livros2014-book-info-author div').text(descricaoLivro);
+      $('#livros2014-book-info-player').html('<iframe id="ytplayer" type="text/html" width="336" height="187" controls="0" showinfo="0" src="https://www.youtube.com/embed/' +  videoLink + '" frameborder="0" allowfullscreen>')
+      
       $booksList.velocity({ opacity: 0 }, { duration: 500 , display: 'none' });
       $bookLogo.velocity({ top: 10 }, { duration: 500 , display: 'block' });
       $bookPrize.velocity({ top: -80 }, { duration: 500 , display: 'block' });

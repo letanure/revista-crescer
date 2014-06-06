@@ -69,7 +69,8 @@
       padding: 10px
       color: #333
       text-align: left
-      overflow: scroll
+      overflow-y: scroll
+      overflow-x: hidden
       h3
         font-size: 16px
         margin-bottom: 5px
@@ -91,11 +92,12 @@
       +posLT(75px, 84px)
       +size(270px, 268px)
       padding: 10px
-      overflow: scroll
+      overflow-y: scroll
+      overflow-x: hidden
       h3
         margin-bottom: 5px
       p
-        margin-bottom: 5px
+        margin-bottom: 35px
 
 
     #livros2014-book-author-back
@@ -111,8 +113,19 @@
     background: image-url("livros2014/layout/sobre-premio.png")
 
     #livros2014-book-prize-content
-      +posLT(75px, 84px)
-      +size(270px, 268px)
+      position: absolute
+      left: 38px
+      top: 91px
+      width: 315px
+      height: 321px
+      overflow-x: hidden
+      overflow-y: scroll
+      p
+        margin: 0 0 15px 0
+      h3
+        margin: 0 0 15px 0
+      li
+        margin: 0 0 10px 0
 
     #livros2014-book-prize-back
       +posLT(166px, 429px)
@@ -201,6 +214,8 @@
         .preco
           display: none
         .descricaoIlustrador
+          display: none
+        .linkVideo
           display: none
         .linkIlustrador
           display: none
