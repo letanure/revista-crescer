@@ -22,7 +22,7 @@ livros:
       editora: "Pulo do Gato"
       preco: "27,50"
       imagem: "cuca001.jpg"
-      video: ""
+      video: "http://youtu.be/CizVFx0JhF8"
     -
       titulo: "A parte que falta"
       descricaoLivro: "O protagonista desse livro é um ser que parece uma circunferência, mas com uma parte faltando. Por isso, não se sentia feliz. Partiu, então, em busca desse triângulo que o completaria. A procura mesclava momentos difíceis e deliciosos, que incluíam torrar ao sol, refrescar-se com a chuva e conhecer várias criaturas pelo mundo. Certo dia, ele encontra a tal parte. Mas e aí? Será que assim alcançaria a felicidade plena? Escrito com breves sentenças e ilustrado com traços pretos simples, o livro é de autoria do renomado autor norte-americano Shel Silverstein (1930-1999), que teve três obras entre os Melhores da CRESCER: A Árvore Generosa, Quem Quer Este Rinoceronte e Fuja do Garabuja. A partir de 3 anos."
@@ -35,7 +35,7 @@ livros:
       editora: "Cosac Naify"
       preco: "43"
       imagem: "cuca005.jpg"
-      video: ""
+      video: "http://youtu.be/J4osf0vi6iE"
     -
       titulo: "Caras animalescas"
       descricaoLivro: "“Vocês já repararam que existem pessoas que se parecem com alguns animais?” Após o convite feito na primeira página do livro, os autores apresentam vários personagens que se parecem com bichos. É o caso, por exemplo, da sra. Maricota, que tem cara de gaivota, o sr. Sodré, que tem cara de jacaré e a sra. Deodata, que tem cara de gata. Diversão garantida, Caras Animalescas marca o final da chamada Trilogia do Retrato, feita a quatro mãos pelo escritor Ilan Brenman e pelo artista plástico Renato Moriconi. Os outros títulos da trilogia – Telefone Sem Fio e Bocejo – também marcaram presença nas listas dos Melhores da CRESCER. A partir de 2 anos."
@@ -48,7 +48,7 @@ livros:
       editora: "Cia. das Letrinhas"
       preco: "37,50"
       imagem: "cuca031.jpg"
-      video: ""
+      video: "http://youtu.be/McXzdsN_5sg"
   coluna2:
     -
       titulo: "Cantiga"
@@ -62,7 +62,7 @@ livros:
       editora: "Cosac Naify"
       preco: "39,90"
       imagem: "cuca002.jpg"
-      video: ""
+      video: "http://youtu.be/Dc_tCEgDjvE"
     -
       titulo: "Antologia Ilustrada da Poesia Brasileira para Crianças de Qualquer Idade"
       descricaoLivro: "Nessa obra, a cantora e compositora gaúcha Adriana Calcanhotto reuniu poemas de mais de 40 brasileiros de diferentes tempos e estilos. Seguindo uma ordem cronológica, a antologia tem versos de Gonçalves Dias, Casimiro de Abreu, Machado de Assis, Olavo Bilac, Mário de Andrade, Carlos Drummond de Andrade, Erico Veríssimo, Mário Quintana, Vinicius de Moraes e vários outros poetas de peso. São quase 50 textos para mergulhar em uma viagem pelas palavras, pelos ritmos e pela grandiosidade da poesia brasileira. As ilustrações são da própria Adriana. A partir de 4 anos."
@@ -75,7 +75,7 @@ livros:
       editora: "Casa da Palavra"
       preco: "48,90"
       imagem: "cuca007.jpg"
-      video: ""
+      video: "http://youtu.be/N9VoKOtMBPk"
     -
       titulo: "Os pássaros"
       descricaoLivro: "Feita só com imagens, a narrativa revela o avançar de um caminhão por uma estrada, até chegar a um precipício. Lá, o motorista abre o baú de carga e liberta dezenas de aves coloridas. Mas, espera! Um pássaro parece não saber como sair. Será que o motorista conseguirá ajudá-lo? Com ilustrações em cores vibrantes, o casal de autores revela uma singela relação entre o homem e a ave. Lançada em 2010 na Suíça, a obra conquistou no ano seguinte o Prix Sorcières, na França, e, em 2012, o prêmio de melhor livro infantil ilustrado do The New York Times. A partir de 1 ano."
@@ -88,7 +88,7 @@ livros:
       editora: "34"
       preco: "39"
       imagem: "cuca010.jpg"
-      video: ""
+      video: "http://youtu.be/dj8e1Kcxh1I"
     -
       titulo: "Vagalumice"
       descricaoLivro: "Como será que os animais descobrem suas funções vitais? Foi pensando nisso que o autor e ilustrador Laurent Cardon deu origem à coleção Que Bicho Sou Eu?, da qual Vagalumice é o terceiro. Na narrativa feita só com imagens, Cardon diverte o leitor com os desafios de um vagalume ao aprender a controlar o voo e a emissão de luz. Nesse processo, pais, professores, colegas de escola, médico e até o primeiro amor do vagalume entram em cena, em uma abordagem humanizada e bem-humorada. Francês radicado em São Paulo, Cardon já marcou presença na lista dos Melhores da CRESCER com Sapo a Passo (2012), Flop – A História de um Peixinho Japonês na China (2011) e Sete Patinhos na Lagoa (2012). A partir de 3 anos."
@@ -101,7 +101,7 @@ livros:
       editora: "Biruta"
       preco: "37"
       imagem: "cuca011.jpg"
-      video: ""
+      video: "http://youtu.be/M4mKcxvlzoM"
   coluna3:
     -
       titulo: "Bichos do Lixo"
@@ -115,7 +115,7 @@ livros:
       editora: "Casa da Palavra"
       preco: "49,90"
       imagem: "cuca012.jpg"
-      video: ""
+      video: "http://youtu.be/aw3puyeFKNo"
     -
       titulo: "Abra Este Pequeno Livro"
       descricaoLivro: "O título convida: abra este pequeno livro. Mas ele não é pequeno, tem 21 cm por 28 cm... E é aí que está a surpresa: logo na primeira página, o leitor encontra a capa de um livro menor, e quando o abre, acha outro ainda menor... Depois de Abra Este Pequeno Livro, há o Pequeno Livro Vermelho, o Pequeno Livro Verde... Parece confuso? Na verdade, é sensacional! Só lendo para entender a delícia dessa obra da norte-americana Jesse Klausmeier, que estreia na literatura infantil. As ilustrações são da premiada sul-coreana Suzy Lee, que já esteve entre os Melhores da CRESCER com Onda e Sombra. A partir de 5 anos."
@@ -128,7 +128,7 @@ livros:
       editora: "Cosac Naify"
       preco: "49,90"
       imagem: "cuca006.jpg"
-      video: ""
+      video: "http://youtu.be/bEpCJAzEUdc"
     -
       titulo: "Ter um Patinho É Útil"
       descricaoLivro: "Nesse livro, o leitor se depara com as incontáveis utilidades que um patinho pode ter para um menino. Serve para o garoto se balançar (sentando sobre ele), de chapéu (se colocado na cabeça), de apito e muito mais. Pois quando o leitor pensa que está chegando ao final da obra, vem a surpresa: ele é apresentado às inúmeras utilidades que um menino pode ter para um patinho! Com páginas cartonadas (bem resistentes) e formato reduzido (15 cm por 16 cm), o livro é bastante atraente para crianças pequenas. Tanto o texto quanto as imagens são da escritora e ilustradora argentina Marisol Misenta, que assina como Isol, e já fez mais de dez títulos infantojuvenis – em 2013, ela recebeu o prêmio sueco Astrid Lindgren pelo conjunto da obra. A partir de 1 ano."
@@ -141,7 +141,7 @@ livros:
       editora: "Cosac Naify"
       preco: "24,90"
       imagem: "cuca015.jpg"
-      video: ""
+      video: "http://youtu.be/zgo1SfITQmU"
     -
       titulo: "A Caraminhola da Minhoca"
       descricaoLivro: "Certo dia, uma minhoca encontra outra e tenta uma conversa à toa. A “minhoca ouvinte” fica calada e indiferente e a primeira passa a criticá-la para os animais próximos. Por que a minhoca nem reage? Um livro irônico e divertido, com texto curto de Blandina Franco e imagens de traços simples de José Carlos Lollo. O casal, que desde 2009 cria títulos infantis em parceria, já tem quase 30 títulos publicados em conjunto. A parceria bem-sucedida rendeu duas indicações para o prêmio Jabuti e uma Menção Honrosa do prêmio Bologna Ragazzi Digital Award, na Feira de Bolonha. A partir de 2 anos."
@@ -154,7 +154,7 @@ livros:
       editora: "Cia. das Letrinhas"
       preco: "34,50"
       imagem: "cuca003.jpg"
-      video: ""
+      video: "http://youtu.be/7qDGFnkUcuc"
   coluna4:
     -
       titulo: "Ralf & Demi: Uma História de Duas Metades"
@@ -168,7 +168,7 @@ livros:
       editora: "Quatro Cantos"
       preco: "32"
       imagem: "cuca004.jpg"
-      video: ""
+      video: "http://youtu.be/qyvAPQz_seg"
     -
       titulo: "Se Você Quiser Ver Uma Baleia"
       descricaoLivro: "Como sugere o título, um narrador orienta o leitor, desde a primeira página, sobre a maneira como deve se comportar para ver uma baleia. Com imagens belíssimas – e tão poéticas quanto o texto –, a obra chama a atenção da criança para a natureza, para o espaço e para o tempo da vida. É o segundo livro da norte-americana Julie Fogliano, que estreou com And Then It’s Spring. Ainda não lançado no Brasil, seu primeiro livro tornou-se best-seller segundo o jornal The New York Times e ganhou o prêmio Livro de Honra do Boston Globe-Horn Book. As ilustrações são de Erin E. Stead, que ilustrou o outro livro de Julie. A partir de 4 anos."
@@ -181,7 +181,7 @@ livros:
       editora: "Pequena Zahar"
       preco: "39,90"
       imagem: "cuca008.jpg"
-      video: ""
+      video: "http://youtu.be/-F_kdtRAIO8"
     -
       titulo: "Em Cima Daquela Serra"
       descricaoLivro: "Inspirado em uma conhecida parlenda, Eucanaã Ferraz criou um grande poema repleto de rimas e protagonizado por bichos. O resultado é uma delícia: “Em cima daquela serra passa boi, passa boiada. Em cima daquela serra passa uma égua pintada.” Carioca nascido em 1961, Ferraz tem vários livros de poesia premiados e já esteve na lista dos Melhores da CRESCER com Palhaço, Macaco, Passarinho (2010). As ilustrações de Em Cima Daquela Serra, bem coloridas e com formas geométricas marcadas, são da paulistana Yara Kono, que desde 2001 vive em Lisboa, Portugal. A partir de 2 anos."
@@ -194,7 +194,7 @@ livros:
       editora: "Companhia das Letrinhas"
       preco: "34"
       imagem: "cuca013.jpg"
-      video: ""
+      video: "http://youtu.be/39djYmd0Jk4"
     -
       titulo: "Menina Amarrotada"
       descricaoLivro: "A menina morava do lado de lá. Em sua casa, havia aquelas coisas que existem em todos os lugares, como tomate, leite com chocolate e biscoito de maisena – e às vezes chovia, às vezes fazia sol, às vezes caía uma tempestade. Era bom. Um dia, no entanto, o pai da menina viajou para longe. É bem verdade que ele sempre viajava, mas daquela vez foi diferente, pois soprou um vento de amarrotar e garota começou a pensar: “E se ele nunca voltar?”. Repleto de sensibilidade nas palavras e nos traços, Menina Amarrotada é o sexto livro escrito e ilustrado por Aline Abreu. Artista plástica nascida no Rio de Janeiro, ela vive em São Paulo desde a infância e, nos últimos anos, vem se dedicando aos livros, sejam os de autoria própria ou com textos de terceiros ilustrados por ela. A partir de 4 anos. "
@@ -207,7 +207,7 @@ livros:
       editora: "Jujuba"
       preco: "34"
       imagem: "cuca009.jpg"
-      video: ""
+      video: "http://youtu.be/ZDhCoqBbc4I"
   coluna5:
     -
       titulo: "A Bicicleta Epiplética"
@@ -221,7 +221,7 @@ livros:
       editora: "Cosac Naify"
       preco: "35"
       imagem: "cuca016.jpg"
-      video: ""
+      video: "http://youtu.be/qzRGSERGqjk"
     -
       titulo: "Amarílis"
       descricaoLivro: "Luisa pegou o livro das mãos de Tiago e abriu ao acaso. Com alguma preocupação, observou a imagem na página que, em seguida, traduziria em palavras, contando a seu irmão o que estava vendo. Era assim que costumavam brincar. Em Amarílis, a escritora e ilustradora Eva Furnari – que soma mais de 60 livros publicados nos últimos 35 anos – revela com extrema sensibilidade uma relação entre irmãos, fortalecida pela leitura, pela fantasia e pela incrível habilidade da menina de se colocar no lugar do outro. A surpresa revelada ao final é emocionante. As ilustrações são de Cárcamo, ilustrador, caricaturista e artista plástico chileno radicado no Brasil. A partir de 6 anos. "
@@ -234,7 +234,7 @@ livros:
       editora: "Moderna"
       preco: "35"
       imagem: "cuca018.jpg"
-      video: ""
+      video: "http://youtu.be/280Zci_MRtk"
     -
       titulo: "Da Guerra dos Mares e das Areias – Fábula Sobre as Marés"
       descricaoLivro: "Essa história começou há muitos anos, quando a Terra ainda estava em rebuliço e montanhas, rios e árvores combinavam onde cada um ficaria. A maioria fazia isso em harmonia, mas os mares e as areias guerreavam sem parar. Os conflitos que se desdobram são deliciosos. Uma obra fascinante do escritor português Pedro Veludo, que há anos vive no Brasil, e do ilustrador pernambucano Murilo Silva, que vive em São Paulo. A partir de 4 anos."
@@ -247,7 +247,7 @@ livros:
       editora: "Quatro Cantos"
       preco: "38,50"
       imagem: "cuca017.jpg"
-      video: ""
+      video: "http://youtu.be/TwESUTS3LVY"
     -
       titulo: "Listas fabulosas"
       descricaoLivro: "Já na dedicatória, a renomada autora Eva Furnari revela o bom humor da obra: “Este livro é dedicado às pessoas listradas”. Ela narra a história do garoto Grômio, que adorava fazer listas, a ponto de fundar o Clube das Listas. “Os piores jeitos de se fazer alguma coisa” e “Pequenas mudanças que dão grandes problemas” são algumas delas, recheadas de imaginação. Eva já ganhou diversos prêmios, como o Jabuti e o da FNLIJ, e teve várias obras entre os Melhores da CRESCER. A partir de 7 anos."
@@ -260,7 +260,7 @@ livros:
       editora: "Moderna"
       preco: "35"
       imagem: "cuca020.jpg"
-      video: ""
+      video: "http://youtu.be/9wDBiatmK6I"
   coluna6:
     -
       titulo: "Veludo – História de Um Ladrão"
@@ -274,7 +274,7 @@ livros:
       editora: "Pequena Zahar"
       preco: "44,90"
       imagem: "cuca021.jpg"
-      video: ""
+      video: "http://youtu.be/3lcudAR86uw"
     -
       titulo: "O Incrível Menino Devorador de Livros"
       descricaoLivro: "“Henrique adorava livros. Mas não do mesmo jeito que você e eu adoramos livros. Não! Não mesmo... Henrique adorava devorar livros.” Assim começa a obra que tem como protagonista um garoto que ama comer livros – característica usada também em uma divertida surpresa no formato da obra: uma mordida no final, com direito à marca dos dentes! Com o estranho hábito, o menino adquire uma inteligência invejável, em um primeiro momento – até o dia em que a excêntrica dieta passa a gerar grandes dificuldades para administrar o volume de informações engolidas. Como Henrique pode resolver esse problema? Lançada originalmente em 2006, a obra é escrita e ilustrada pelo australiano Oliver Jeffers, que tem pouco mais de dez livros publicados (vários deles já lançados no Brasil). Essa é a segunda vez que Jeffers marca presença na lista dos Melhores da CRESCER – a primeira delas foi em 2012, com Achados e Perdidos. A partir de 4 anos."
@@ -287,7 +287,7 @@ livros:
       editora: "Salamandra"
       preco: "35,50"
       imagem: "cuca022.jpg"
-      video: ""
+      video: "http://youtu.be/tEUoRDkGxKc"
     -
       titulo: "Term lugar para Todos"
       descricaoLivro: "O título anuncia: tem lugar para todos! Desde a primeira página, o leitor se depara com animais que se deslocam para a mesma direção (a da página seguinte). Há abelhas, formigas, sapos, jabutis, quatis, tatus, corujas, cangurus, pandas, girafas... Para onde vão? Nas últimas páginas, o destino é revelado, bem como a maravilhosa maneira como eles se acomodam. Criado pelo artista plástico italiano Massimo Cassia, o livro recebeu o selo altamente recomendável da FNLIJ (Fundação Nacional do Livro Infantil e Juvenil). A partir de 1 ano."
@@ -300,7 +300,7 @@ livros:
       editora: "Pequena Zahar"
       preco: "39,90"
       imagem: "cuca028.jpg"
-      video: ""
+      video: "http://youtu.be/K-W2lfadf7Q"
   coluna7:
     -
       titulo: "Os Invisíveis"
@@ -314,7 +314,7 @@ livros:
       editora: "Casa da Palavra"
       preco: "34,90"
       imagem: "cuca023.jpg"
-      video: ""
+      video: "http://youtu.be/57gk8RFcx8E"
     -
       titulo: "Jerônimo Totes e suas Estranhas Mascotes"
       descricaoLivro: "O garoto Jerônimo Totes seria um menino normal, não fossem suas estranhas mascotes... Ele tem, por exemplo, o Glube, um babopótamo que baba pra valer, o barulhento pássaro Chiante e ainda o Dragonento, um guloso rinocerossapo com dentes de sabre. Mas Jerônimo conhece alguém ainda mais barulhento, guloso, babão e estranho. Quem será? O final é bem divertido! Com imagens coloridas e bem-humoradas, o livro foi feito pelo inglês M.P. Robertson, que já escreveu mais de dez títulos e ilustrou mais de 100 livros. A partir de 2 anos"
@@ -327,7 +327,7 @@ livros:
       editora: "Biruta"
       preco: "32"
       imagem: "cuca025.jpg"
-      video: ""
+      video: "http://youtu.be/kHxRexupThs"
     -
       titulo: "O Lenço"
       descricaoLivro: "Uma menina usa um lenço como se fosse travesseiro, lençol ou vestido de noiva. O faz de conta ilustra as várias possibilidades que um objeto pode representar sob o olhar de uma criança. A obra é de Patricia Auerbach, escritora e ilustradora paulistana, autora também de O Jornal, apontado pela FNLIJ como melhor livro de imagem em 2013. A partir de 2 anos."
@@ -340,7 +340,7 @@ livros:
       editora: "Brinque-Book"
       preco: "26"
       imagem: "cuca024.jpg"
-      video: ""
+      video: "http://youtu.be/IfhULiBhVYI"
     -
       titulo: "Aventura Animal"
       descricaoLivro: "Tudo caminhava bem naquela cidade, até surgir um hipopótamo atrás de um carro. Ao virar a página, ao lado de uma fonte, surge um rinoceronte... A cada virada de página, mais um bicho entra em cena, vai se acumulando por ali e arma mais confusão. A obra, uma divertida maneira de apresentar os animais, é do artista plástico e educador Fernando Vilela, que já ilustrou cerca de 70 títulos, sendo 15 autorais, ganhou dois prêmios Jabuti e vários da FNLIJ, além de receber o Troféu Monteiro Lobato de Literatura em 2012. A partir de 2 anos."
@@ -353,7 +353,7 @@ livros:
       editora: "DCL"
       preco: "29,90"
       imagem: "cuca026.jpg"
-      video: ""
+      video: "http://youtu.be/rapwmTMQ2RQ"
   coluna8:
     -
       titulo: "Bárbaro"
@@ -367,7 +367,7 @@ livros:
       editora: "Cia. das Letrinhas"
       preco: "39,50"
       imagem: "cuca027.jpg"
-      video: ""
+      video: "http://youtu.be/WrujEP6k5sc"
     -
       titulo: "A Noite dos Bichos – Um Livro que Amanhece"
       descricaoLivro: "O que acontece durante a noite com os animais que vivem na savana africana? E com os que ficam no frio da taiga russa? E com aqueles que habitam a selva amazônica? Em A Noite dos Bichos – Um Livro que Amanhece, a francesa Julia Wauters faz um passeio pela noite em várias partes do planeta, mostrando as semelhanças e diferenças que existem. E se narrativa e ilustrações já são atraentes, o projeto gráfico é um espetáculo à parte, já que em meio às páginas convencionais, a obra exibe transparências com imagens que se sobrepõem às ilustrações, proporcionando magia e encanto capazes de despertar suspiros no leitor. A partir de 3 anos."
@@ -380,7 +380,7 @@ livros:
       editora: "Ática"
       preco: "44,90"
       imagem: "cuca030.jpg"
-      video: ""
+      video: "http://youtu.be/0f8S1OwFY1A"
     -
       titulo: "A Lição das Árvores"
       descricaoLivro: "“Enrico ama chocolate, insetos e o cheiro da primavera. Paola gosta de grampos de cabelo, de borboletas e de procurar trevos de quatro folhas.” Depois de destacar várias particularidades do menino e de sua amiga, a obra revela uma analogia que ajuda a compreender melhor os seres humanos a partir de um olhar para a natureza. O texto é do educador italiano Roberto Parmeggiani e as imagens são do também italiano Attílio Palumbo. A partir de 4 anos."
@@ -393,7 +393,7 @@ livros:
       editora: "Dsop"
       preco: "39,90"
       imagem: "cuca019.jpg"
-      video: ""
+      video: "http://youtu.be/ZvjYzj0QlQk"
     -
       titulo: "Minhocas Comem Amendoins"
       descricaoLivro: "Antes, ninguém comia gatos, que comiam pássaros, que comiam minhocas, que comiam amendoins. Só que as minhocas ficavam irritadas com o fato de ninguém comer os gatos – e isso levou uma minhoca a comer um felino! Com isso, instaura-se a confusão. No texto rápido, marcado por repetições e frases curtas, predominam o humor e o nonsense. Um livro divertido, da autora francesa Élisa Géhin, que estudou arte e design na École Estienne. A partir de 2 anos."
@@ -406,4 +406,4 @@ livros:
       editora: "Pequena Zahar"
       preco: "39,90"
       imagem: "cuca029.jpg"
-      video: ""
+      video: "http://youtu.be/wwSkVUQoZlE"
